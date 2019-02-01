@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demosuite" duration-ms="5250" started-at="2019-01-31T22:30:24Z" finished-at="2019-01-31T22:30:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5250" started-at="2019-01-31T22:30:24Z" finished-at="2019-01-31T22:30:29Z">
+      <class name="TestCases.SimpleSearchGooglePlayStore">
+        <test-method status="FAIL" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.SimpleSearchGooglePlayStore@48503868]" name="setupDriver" is-config="true" duration-ms="0" started-at="2019-02-01T05:30:24Z" finished-at="2019-02-01T05:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mySonyXZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CB512E7ECY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/commons/lang3/StringUtils]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/commons/lang3/StringUtils
+	at io.appium.java_client.HasSessionDetails.lambda$0(HasSessionDetails.java:49)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at com.google.common.collect.CollectSpliterators$1.lambda$forEachRemaining$1(CollectSpliterators.java:117)
+	at java.util.Iterator.forEachRemaining(Unknown Source)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source)
+	at com.google.common.collect.CollectSpliterators$1.forEachRemaining(CollectSpliterators.java:117)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:52)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+	at io.appium.java_client.internal.JsonToMobileElementConverter.<init>(JsonToMobileElementConverter.java:49)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:95)
+	at CoreFramework.TestCase.setupDriver(TestCase.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.lang3.StringUtils
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="SKIP" signature="executeTestCase()[pri:0, instance:TestCases.SimpleSearchGooglePlayStore@48503868]" name="executeTestCase" duration-ms="2" started-at="2019-02-01T05:30:29Z" finished-at="2019-02-01T05:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCase -->
+        <test-method status="SKIP" signature="closeupDriver()[pri:0, instance:TestCases.SimpleSearchGooglePlayStore@48503868]" name="closeupDriver" is-config="true" duration-ms="0" started-at="2019-02-01T05:30:29Z" finished-at="2019-02-01T05:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeupDriver -->
+      </class> <!-- TestCases.SimpleSearchGooglePlayStore -->
+    </test> <!-- Test -->
+  </suite> <!-- demosuite -->
+</testng-results>

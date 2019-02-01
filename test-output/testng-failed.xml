@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [demosuite]">
+  <parameter name="androidVersion" value="9"/>
+  <parameter name="deviceUid" value="CB512E7ECY"/>
+  <parameter name="deviceName" value="mySonyXZ"/>
+  <test name="Test(failed)">
+    <parameter name="androidVersion" value="9"/>
+    <parameter name="deviceUid" value="CB512E7ECY"/>
+    <parameter name="deviceName" value="mySonyXZ"/>
+    <classes>
+      <class name="TestCases.SimpleSearchGooglePlayStore">
+        <methods>
+          <include name="executeTestCase"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- TestCases.SimpleSearchGooglePlayStore -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [demosuite] -->

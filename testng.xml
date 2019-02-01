@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="demosuite" verbose="3" >
+  <test name="Test" >
+  <parameter name="deviceName" value="mySonyXZ"></parameter>
+  <parameter name="deviceUid" value="CB512E7ECY"></parameter><parameter name="androidVersion" value="9"></parameter>
+  <classes>
+       <class name="TestCases.SimpleSearchGooglePlayStore"/>
+    </classes>
+  </test>
+  
+
+
+</suite>
